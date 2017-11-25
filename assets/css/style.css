@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+}
+.header{
+max-width: 960;
+  display: flex;
+  justify-content: center; 
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  flex: 0 1 100%;
+  box-shadow: 0 5px 0 #888888;
+
+ 
+}
+
+.logo{
+  margin: 0;
+  background: #4aaaa5;
+  padding: 25px;
+  font-color: white;
+  margin-left: 205px;
+  margin-right: 150px;
+  
+ 
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+    
+}
+
+ .main-nav{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #777777;
+  margin-right: 205px;
+  margin-left: 135px;
+  padding: 0;
+  flex: 0 1 20%;
+
+}
+
+ .contentContainer{
+  display: flex;
+  justify-content: center;
+  background-image: url(assets/images/BG.jpg);
+}
+.leftContainer{
+    background: red;
+    max-width: 650px;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 600px;
+    }
+ .dp{
+    float: left;
+    margin-right: 20px;
+ }
+.rightContainer{
+    background: blue;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-height: 250px;
+    }
+.footer{
+    width: 100%;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 10px;
+    }
+.footerText{
+    color: white;
+    display: flex;
+    align-items: center;
+    }

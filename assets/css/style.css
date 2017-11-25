@@ -9,26 +9,26 @@ max-width: 960;
   align-items: center;
   background: white;
   flex: 0 1 100%;
-  box-shadow: 0 5px 0 #888888;
+  box-shadow: 0 10px 0 #888888;
+  z-index: 10;
 
  
+}
+a{
+    text-decoration: none;
+    color: #777777;
 }
 
 .logo{
   margin: 0;
   background: #4aaaa5;
   padding: 25px;
-  font-color: white;
+  color: white;
   margin-left: 205px;
   margin-right: 150px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
   
  
-}
-
-a{
-    text-decoration: none;
-    color: #777777;
-    
 }
 
  .main-nav{
@@ -47,22 +47,32 @@ a{
  .contentContainer{
   display: flex;
   justify-content: center;
-  background-image: url(assets/images/BG.jpg);
-}
+  background-image: url(https://github.com/ChetanAudipudy/Basic-Portfolio/blob/master/assets/images/topography.png?raw=true)
+  }
 .leftContainer{
-    background: red;
+    background: white;
     max-width: 650px;
     margin-top: 20px;
     padding-left: 25px;
     padding-right: 25px;
     width: 600px;
+    border-style: outset;
+    border-width: 1px;
+    text-align: justify;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
     }
  .dp{
     float: left;
     margin-right: 20px;
+}
+.aboutMe{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
  }
+
 .rightContainer{
-    background: blue;
+    background: white;
     width: 220px;
     margin-top: 20px;
     margin-left: 20px;
@@ -70,6 +80,10 @@ a{
     padding-right: 25px;
     max-height: 250px;
     }
+.connect{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
 .footer{
     width: 100%;
     background: pink;

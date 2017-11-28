@@ -2,17 +2,17 @@ body{
   margin: 0;
 }
 .header{
-max-width: 960;
-  display: flex;
-  justify-content: center; 
-  justify-content: space-around;
-  align-items: center;
-  background: white;
-  flex: 0 1 100%;
-  border-style: outset;
-  z-index: 10;
+    max-width: 960;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    flex: 0 1 100%;
+    border-style: outset;
+    z-index: 10;
 
- 
+
 }
 a{
     text-decoration: none;
@@ -25,32 +25,49 @@ a{
   background: #4aaaa5;
   font-size: 30px;
   padding: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
   color: white;
-  margin-left: 205px;
-  margin-right: 150px;
+  margin-left: 220px;
+  margin-right: 180px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   
 }
-
- .main-nav{
-  color: #777777;
+.main-nav{
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
   margin-right: 205px;
   margin-left: 135px;
   padding: 0;
   flex: 0 1 20%;
 
 }
+.main-nav a{
+    color: #777777;
+}
+.main-nav a:hover{
+  color: #4aaaa5;
+}
+.main-nav li a span:first-child:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-top: 5px solid #4aaaa5;
+    border-left: 5px solid #4aaaa5;
+}
 
- .contentContainer{
+.contentContainer{
   display: flex;
   justify-content: center;
+  flex: 1;
   background-image: url(https://github.com/ChetanAudipudy/Basic-Portfolio/blob/master/assets/images/BG.png?raw=true)
-  }
+}
 .leftContainer{
     background: white;
     max-width: 650px;
@@ -64,22 +81,22 @@ a{
     color: #777777;
     margin-bottom: 20px;
     padding-bottom: 25px;
-    }
- .dp{
+}
+.dp{
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
 .aboutMe{
     color: #4aaaa5;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom-style: solid;
     border-bottom-color: #777777;
     border-width: 1px;
     padding-bottom: 20px;
     padding-top: 10px;
- }
+}
 
 
 .rightContainer{
@@ -91,11 +108,11 @@ a{
     padding-right: 25px;
     max-height: 250px;
     color: #777777;
-    }
+}
 .connect{
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 25px;
+    font-size: 20px;
     border-bottom-style: solid;
     border-width: 1px;
     border-bottom-color: #777777;
@@ -118,9 +135,9 @@ a{
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 10px;
-    }
+}
 .footerText{
     color: white;
     display: flex;
     align-items: center;
-    }
+}

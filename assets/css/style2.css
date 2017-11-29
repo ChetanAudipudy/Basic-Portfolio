@@ -53,6 +53,7 @@ a{
 .main-nav a{
     color: #777777;
 }
+
 .main-nav a:hover{
   color: #4aaaa5;
 }
@@ -80,7 +81,7 @@ a{
   display: flex;
   justify-content: center;
   flex: 1;
-  background-image: url(https://github.com/ChetanAudipudy/Basic-Portfolio/blob/master/assets/images/BG.png?raw=true)
+  background-image: url(https://github.com/ChetanAudipudy/Basic-Portfolio/blob/master/assets/images/B_G.png?raw=true)
 }
 .leftContainer{
     /*background: white;

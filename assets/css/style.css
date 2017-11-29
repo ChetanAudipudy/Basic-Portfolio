@@ -1,5 +1,8 @@
 body{
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .header{
     max-width: 960;
@@ -19,6 +22,9 @@ a{
     color: white;
     
 }
+.contentContainer{
+    flex: 1;
+}
 
 .logo{
   margin: 0;
@@ -37,6 +43,7 @@ a{
   list-style: none;
   display: flex;
   justify-content: space-around;
+  position: relative;
   align-items: center;
   margin-right: 205px;
   margin-left: 135px;
@@ -49,18 +56,20 @@ a{
 }
 .main-nav a:hover{
   color: #4aaaa5;
+
 }
-.main-nav li a span:first-child:before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 8px;
-    height: 8px;
-    background: transparent;
-    border-top: 5px solid #4aaaa5;
-    border-left: 5px solid #4aaaa5;
-}
+/*.main-nav li a span:first-child:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: transparent;
+  border-top: 2px solid #4aaaa5;
+  border-left: 2px solid #4aaaa5;
+
+}*/
 
 .contentContainer{
   display: flex;
@@ -72,6 +81,7 @@ a{
     background: white;
     max-width: 650px;
     margin-top: 20px;
+    
     padding-left: 40px;
     padding-right: 40px;
     width: 570px;
@@ -89,7 +99,7 @@ a{
 }
 .aboutMe{
     color: #4aaaa5;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom-style: solid;
     border-bottom-color: #777777;
@@ -101,7 +111,8 @@ a{
 
 .rightContainer{
     background: white;
-    max-width: 220px;
+    width: 220px;
+    height: 180px;
     margin-top: 20px;
     margin-left: 40px;
     padding-left: 25px;
@@ -121,9 +132,7 @@ a{
 }
 .icons{
     display: flex;
-    justify-content: center;
     justify-content: space-around;
-    flex-wrap: wrap;
     padding-top: 10px;
 }
 .footer{
